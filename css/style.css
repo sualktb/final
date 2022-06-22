@@ -1,0 +1,456 @@
+body {
+  height: 100%;
+  margin: 0 auto;
+  width: 100%;
+}
+@font-face {
+font-family: "GillSans";
+src: url("../fonts/GillSans.ttf");
+}
+@font-face {
+font-family: "GillSansbold";
+src: url("../fonts/GillSans-Bold.ttf");
+}
+@font-face {
+font-family: "GillSans-UltraBold";
+src: url("../fonts/GillSans-UltraBold.ttf");
+}
+@font-face {
+font-family: "ProximaNova-Thin-webfont";
+src: url("../fonts/ProximaNova-Thin-webfont.woff");
+}
+nav {
+  height: 150px;
+  max-width: 992px;
+  margin: 0 auto;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  background-color: transparent;
+}
+
+nav .menu-black-line{
+  border-bottom: 2px solid #000;
+}
+nav .menu-white-line{
+  border-bottom: 2px solid #fff;
+}
+nav li {
+  float: right;
+}
+
+.text-black {
+  color: #000;
+}
+
+.text-white {
+  color: #fff;
+}
+nav li a {
+  display: block;
+  font-family: GillSans-UltraBold;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.logo{
+  display:inline-block;
+  padding-top:14px;
+  padding-bottom:0.3125rem;
+  padding-right:12rem;
+  font-family: GillSans-UltraBold;
+  font-size:20px;
+  text-decoration: none;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(13, 13, 13, 0.5), rgba(13, 13, 13, 0.5)), url("../images/hero.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+  position: relative;
+}
+.hero-text {
+  text-align: center;
+  max-width: 774px;
+  margin: 0 auto;
+  left: 50%;
+  color: white;
+}
+.hero-text h1 {
+  font-family: ProximaNova-Thin-webfont;
+  font-size: 60px;
+}
+
+.hero-text p {
+  font-family: GillSans-UltraBold;
+  font-size: 20px;
+}
+.btn-main {
+  background-color: #79ADDC;
+  border: none;
+  color: white;
+  padding: 10px 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: GillSans-UltraBold;
+  font-size: 15px;
+}
+.btn-main-round {
+  background-color: #79ADDC;
+  border: none;
+  color: white;
+  padding: 10px 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: GillSans-UltraBold;
+  font-size: 15px;
+  border-radius: 18px;
+  text-transform: uppercase;
+}
+
+.countries-row {
+  max-width: 900px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.margin-above-80 {
+  margin: -80px auto 0 auto;
+}
+
+.margin-below-40 {
+  margin: 40px auto 0 auto;
+}
+
+.countries-row div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  font-family: ProximaNova-Thin-webfont;
+  color: #fff;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.imageOne{
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(rgba(13, 13, 13, 0.5), rgba(13, 13, 13, 0.5)), url("../images/tour/tour-01.jpg");
+
+}
+.imageTwo {
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(rgba(13, 13, 13, 0.5), rgba(13, 13, 13, 0.5)), url("../images/tour/tour-02.jpg");
+}
+.imageThree {
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(rgba(13, 13, 13, 0.5), rgba(13, 13, 13, 0.5)), url("../images/tour/tour-03.jpg");
+}
+
+.imagefour{
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(rgba(13, 13, 13, 0.5), rgba(13, 13, 13, 0.5)), url("../images/tour/tour-04.jpg");
+
+}
+
+.imagefive{
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(rgba(13, 13, 13, 0.5), rgba(13, 13, 13, 0.5)), url("../images/tour/tour-05.jpg");
+
+}
+.imagesix{
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(rgba(13, 13, 13, 0.5), rgba(13, 13, 13, 0.5)), url("../images/tour/tour-06.jpg");
+}
+.imageseven{
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(rgba(13, 13, 13, 0.5), rgba(13, 13, 13, 0.5)), url("../images/tour/tour-07.jpg");
+
+}
+.imageeight{
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(rgba(13, 13, 13, 0.5), rgba(13, 13, 13, 0.5)), url("../images/tour/tour-08.jpg");
+
+}
+.imagenine{
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(rgba(13, 13, 13, 0.5), rgba(13, 13, 13, 0.5)), url("../images/tour/tour-09.jpg");
+
+}
+.countries-row h1{
+  font-size: 60px;
+  text-transform: uppercase; 
+}
+.countries-row .prices{
+  font-size: 30px;
+  text-transform: lowercase;
+}
+
+.booking-form {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.form-header {
+  font-size: 60px;
+  position: relative;
+  display: inline;
+  font-family: ProximaNova-Thin-webfont;
+  font-weight: bold;
+}
+
+.form-row, .form-row-with-label {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.form-row-with-label label, .form-row label {
+  min-width: 112px;
+  font-family: GillSans-UltraBold;
+  font-size: 18px;
+  margin: 0 auto;
+  padding: 40px 0px;
+}
+
+.font-gill {
+  font-family: GillSans-UltraBold;
+  font-size: 16px;
+}
+.input-wrapper {
+  display: flex;
+  margin: 20px auto 0 auto;
+  position: relative;
+}
+.col-half-left {
+  width: 344px;
+}
+.col-half-right {
+  width: 453px;
+}
+.col-after-label {
+  width: 698px;
+}
+.col-after-label-sm {
+  width: 103px;
+}
+.col-row-4 {
+  width: 33.3333%;
+}
+.col-row-1 {
+  width: 250px;
+  margin: 0 auto;
+}
+.col-row-2 {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.text-field {
+  padding: 0px 9px;
+  width: 100%;
+  height: 58px;
+  outline: none;
+  font-family: GillSans-UltraBold;
+  font-size: 18px;
+  border: solid 1px #79ADDC;
+}
+.icon {
+  padding-top: 18px;
+  min-width: 50px;
+  text-align: center;
+  font-size: 19px;
+}
+.icon-inside {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 192px;
+   padding: 0px 9px;
+  outline: none;
+  font-family: GillSans-UltraBold;
+  font-size: 18px;
+  border: solid 1px #79ADDC;
+}
+.block-btn {
+  background-color: #79ADDC;
+  margin: 30px auto 0px auto;
+  width: 100%;
+  border: none;
+  color: white;
+  padding: 10px 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: GillSans-UltraBold;
+  font-size: 15px;
+  border-radius: 18px;
+  text-transform: uppercase;
+}
+.about-section {
+  max-width: 992px;
+  min-height: 100px;
+  margin: 0 auto 0 auto;
+}
+
+.client-section {
+  max-width: 992px;
+  min-height: 398px;
+  padding: 50px 0px;
+  margin: 0 auto 0 auto;
+}
+
+.about-title {
+  font-size: 60px;
+  font-family: ProximaNova-Thin-webfont;
+  font-weight: bold;
+  position: relative;
+  display: inline;
+  text-transform: uppercase;
+}
+.about-title {
+  font-size: 60px;
+  font-family: ProximaNova-Thin-webfont;
+  font-weight: bold;
+  position: relative;
+  display: inline;
+  text-transform: uppercase;
+}
+.client-title {
+  font-size: 40px;
+  font-family: ProximaNova-Thin-webfont;
+  position: relative;
+  display: inline;
+  text-transform: uppercase;
+}
+.about-header-border {
+  position: absolute;
+  border-bottom: solid 2px #000;
+  width: 80%;
+  left: 0;
+  bottom: -5px;
+
+}
+
+.client-quotes-row {
+  max-width: 722px;
+  margin: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+
+}
+
+.client-quotes-image {
+  width: 260px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.quote {
+  max-width: 400px;
+  margin: 0 auto -10px auto;
+  position: relative;
+}
+.quote .quote-author {
+  position: absolute;
+  font-size: 20px;
+  font-family: ProximaNova-Thin-webfont;
+  font-weight: bold;
+  color: #79ADDC;
+  bottom: 20px;
+  right: 0;
+}
+.client-one {
+  background-image: url("../images/about-client-01.jpg");
+}
+
+.client-two {
+  background-image: url("../images/about-client-02.jpg");
+}
+
+.hero {
+  background-image: linear-gradient(rgba(13, 13, 13, 0.5), rgba(13, 13, 13, 0.5)), url('../images/tour/tours-header.jpg');
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 992px;
+  margin: -60px auto 0 auto;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero h3 {
+  position: absolute;
+  font-size: 60px;
+  font-family: ProximaNova-Thin-webfont;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  top: 25px;
+  left: 400px;
+
+}
+
+footer {
+  margin: 40px auto 0px auto;
+  min-height: 100px;
+  background-color: #79ADDC;
+  color: #fff;
+  font-family: GillSans-UltraBold;
+}
+
+footer .footer-row {
+  max-width: 992px;
+  margin: 0 auto;
+  padding: 30px 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .logo-footer {
+  font-family: GillSans-UltraBold;
+  font-size:20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+footer p {
+  font-size: 12px;
+  text-align: center;
+}
+
+footer h3 {
+  font-size: 23px;
+  text-align: center;
+}
